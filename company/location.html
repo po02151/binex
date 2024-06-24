@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no, address=no, email=no">
+    <title>오시는 길</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="../assets/js/common.js"></script>
+    <script src="https://kit.fontawesome.com/b025689c8c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../assets/css/import.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+</head>
+<body>
+    <div class="wrap">
+        <header class="fixed">
+            <!-- pc일 때 스크롤 시 header에 active클래스 추가. -->
+            <div class="header_pc">
+                <h1>
+                    <a href="../index.html">
+                        logo
+                    </a>
+                </h1>
+
+                <div>
+                    <nav>
+                        <ul>
+                            <li>
+                                <span>바이넥스</span>
+                            </li>
+                            <li>
+                                <span>바이오의약품 CDMO</span>
+                            </li>
+                            <li>
+                                <span>합성의약품</span>
+                            </li>
+                            <li>
+                                <span>투자정보</span>
+                            </li>
+                            <li>
+                                <span>윤리경영</span>
+                            </li>
+                            <li>
+                                <span>채용정보</span>
+                            </li>
+                        </ul>
+                        <div class="megaMenu">
+                            <div>
+                                <div>leftArea</div>
+                                <div>
+                                    <ul class="nav">
+                                        <li>
+                                            <ul>
+                                                <li>
+                                                    <a href="../company/aboutUs/company_overview.html" class="none">회사소개</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="../company/aboutUs/company_overview.html">회사개요</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="../company/aboutUs/vision.html">비전</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="../company/aboutUs/greetings.html">인사말</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="../company/aboutUs/business_areas.html">사업분야</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="ci.html">CI</a>
+                                                </li>
+                                                <li>
+                                                    <a href="history.html">연혁</a>
+                                                </li>
+                                                <li>
+                                                    <a href="location.html">오시는 길</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li>
+                                                    <a href="../bio_medicine_cdmo/business_overview.html">CDMO 사업개요</a>
+                                                </li>
+                                                <li>
+                                                    <a href="../bio_medicine_cdmo/consignment_development/consignment_development.html" class="none">CDO</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a data-toggle="tab" href="../bio_medicine_cdmo/consignment_development/consignment_development.html#tab1">세포주 개발</a>
+                                                        </li>
+                                                        <li>
+                                                            <a data-toggle="tab" href="../bio_medicine_cdmo/consignment_development/consignment_development.html#tab2">공정개발</a>
+                                                        </li>
+                                                        <li>
+                                                            <a data-toggle="tab" href="../bio_medicine_cdmo/consignment_development/consignment_development.html#tab3">분석법 개발</a>
+                                                        </li>
+                                                        <li>
+                                                            <a data-toggle="tab" href="../bio_medicine_cdmo/consignment_development/consignment_development.html#tab4">바이오분석지원센터</a>
+                                                        </li>
+                                                        <li>
+                                                            <a data-toggle="tab" href="../bio_medicine_cdmo/consignment_development/consignment_development.html#tab5">연구용 시료 생산</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="../bio_medicine_cdmo/consignment_production/consignment_production.html" class="none">CMO</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a data-toggle="tab" href="../bio_medicine_cdmo/consignment_production/consignment_production.html#tab1">원제의약품</a>
+                                                        </li>
+                                                        <li>
+                                                            <a data-toggle="tab" href="../bio_medicine_cdmo/consignment_production/consignment_production.html#tab2">완제의약품</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="../bio_medicine_cdmo/quality/quality.html" class="none">Quality</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="../bio_medicine_cdmo/quality/quality.html#tab1">품질시스템</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="../bio_medicine_cdmo/quality/quality.html#tab2">품질관리</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li>
+                                                    <a href="../synthetic_drugs/product_search.html">제품검색</a>
+                                                </li>
+                                                <li>
+                                                    <a href="../synthetic_drugs/product_license_changes.html">제품공지사항</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="../synthetic_drugs/product_license_changes.html">허가 변경사항</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="../synthetic_drugs/obesity_treatment_drugs.html">비만치료 약물</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="../synthetic_drugs/probiotics/manufacturing_facility.html">Probiotics</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="../synthetic_drugs/probiotics/manufacturing_facility.html">제조시설</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="../synthetic_drugs/probiotics/microbial_identification_analysis_service.html">미생물 동정 분석 서비스</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="../synthetic_drugs/manufacturing_facility_busan.html">제조시설(부산공장)</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <!-- <li>
+                                                    <a href="">전자공시</a>
+                                                </li> -->
+                                                <li>
+                                                    <a href="../investment_information/settlement_announcement.html">전자공고</a>
+                                                </li>
+                                                <li>
+                                                    <a href="../investment_information/financial_information.html">재무정보</a>
+                                                </li>
+                                                <li>
+                                                    <a href="../investment_information/stock_information/stockPrice_information.html" class="none">주식정보</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="../investment_information/stock_information/stockPrice_information.html">주가정보</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="../investment_information/stock_information/stock_status.html">주식현황</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="../investment_information/stock_information/general_information.html">일반현황</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="../investment_information/inside_information.html">내부정보관리규정</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li>
+                                                    <a href="../ethical_management/codeOfEthicsAndPracticalGuidelines/code_of_ethics.html" class="none">윤리강령 및 실전지침</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="../ethical_management/codeOfEthicsAndPracticalGuidelines/code_of_ethics.html">윤리강령</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="../ethical_management/codeOfEthicsAndPracticalGuidelines/practice_guidelines.html">실전지침</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="../ethical_management/reportingInformationAndProcedures/reporting_information.html">제보안내 및 절차</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="../ethical_management/reportingInformationAndProcedures/reporting_information.html">제보안내</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="../ethical_management/reportingInformationAndProcedures/whistleblower_protection.html">제보자 보호</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="../ethical_management/reportingInformationAndProcedures/report.html">제보하기</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="../ethical_management/reportingInformationAndProcedures/processing_procedure.html">처리절차</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li>
+                                                    <a href="../recruitment_information/ideal_talent.html">인재상</a>
+                                                </li>
+                                                <li>
+                                                    <a href="../recruitment_information/welfare_benefits.html">복리후생</a>
+                                                </li>
+                                                <li>
+                                                    <a href="../recruitment_information/job_posting.html">채용안내</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <div>rightArea</div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                    <div class="rightBox">
+                        <a href="../contactUs/contactUs.html" class="contactUsBtn">문의하기</a>
+                        <div class="langBox">
+                            <button>KOR</button>
+                            <div>
+                                <span>KOR</span>
+                                <span>ENG</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+            <!-- 모바일 헤더 : 스크롤 시 top이라는 클래스가 붙은 div에 active클래스 추가. -->
+            <!-- hamburger 버튼 클릭 시 header_mo에 active클래스 추가. -->
+            <div class="header_mo">
+                <div class="top">
+                    <h1>
+                        <a href="../index.html">
+                            logo
+                        </a>
+                    </h1>
+                    <button class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li>
+                            <span>
+                                <span>바이넥스</span>
+                                <span><img src="../assets/images/header_subArrow.png" alt="arrow"></span>
+                            </span>
+                            <ul class="mo_sub_menu">
+                                <li>
+                                    <a href="../company/aboutUs/company_overview.html">회사소개</a>
+                                    <ul>
+                                        <li>
+                                            <a href="../company/aboutUs/company_overview.html">회사개요</a>
+                                        </li>
+                                        <li>
+                                            <a href="../company/aboutUs/vision.html">비전</a>
+                                        </li>
+                                        <li>
+                                            <a href="../company/aboutUs/greetings.html">인사말</a>
+                                        </li>
+                                        <li>
+                                            <a href="../company/aboutUs/business_areas.html">사업분야</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="../company/ci.html">CI</a>
+                                </li>
+                                <li>
+                                    <a href="../company/history.html">연혁</a>
+                                </li>
+                                <li>
+                                    <a href="../company/location.html">오시는 길</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>
+                                <span>바이오의약품 CDMO</span>
+                                <span><img src="../assets/images/header_subArrow.png" alt="arrow"></span>
+                            </span>
+                            <ul class="mo_sub_menu">
+                                <li>
+                                    <a href="../bio_medicine_cdmo/business_overview.html">CDMO 사업개요</a>
+                                </li>
+                                <li>
+                                    <a href="../bio_medicine_cdmo/consignment_development/consignment_development.html">CDO</a>
+                                    <ul>
+                                        <li>
+                                            <a href="../bio_medicine_cdmo/consignment_development/consignment_development.html#tab1">세포주 개발</a>
+                                        </li>
+                                        <li>
+                                            <a href="../bio_medicine_cdmo/consignment_development/consignment_development.html#tab2">공정개발</a>
+                                        </li>
+                                        <li>
+                                            <a href="../bio_medicine_cdmo/consignment_development/consignment_development.html#tab3">분석법 개발</a>
+                                        </li>
+                                        <li>
+                                            <a href="../bio_medicine_cdmo/consignment_development/consignment_development.html#tab4">바이오분석지원센터</a>
+                                        </li>
+                                        <li>
+                                            <a href="../bio_medicine_cdmo/consignment_development/consignment_development.html#tab5">연구용 시료 생산</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="../bio_medicine_cdmo/consignment_production/consignment_production.html">CMO</a>
+                                    <ul>
+                                        <li>
+                                            <a href="../bio_medicine_cdmo/consignment_production/consignment_production.html#tab1">원제의약품</a>
+                                        </li>
+                                        <li>
+                                            <a href="../bio_medicine_cdmo/consignment_production/consignment_production.html#tab2">완제의약품</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="../bio_medicine_cdmo/quality/quality.html">Quality</a>
+                                    <ul>
+                                        <li>
+                                            <a href="../bio_medicine_cdmo/quality/quality.html#tab1">품질시스템</a>
+                                        </li>
+                                        <li>
+                                            <a href="../bio_medicine_cdmo/quality/quality.html#tab2">품질관리</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>
+                                <span>합성의약품</span>
+                                <span><img src="../assets/images/header_subArrow.png" alt="arrow"></span>
+                            </span>
+                            <ul class="mo_sub_menu">
+                                <li>
+                                    <a href="../synthetic_drugs/product_search.html">제품검색</a>
+                                </li>
+                                <li>
+                                    <a href="../synthetic_drugs/product_license_changes.html">제품공지사항</a>
+                                    <ul>
+                                        <li>
+                                            <a href="../synthetic_drugs/product_license_changes.html">허가 변경사항</a>
+                                        </li>
+                                        <li>
+                                            <a href="../synthetic_drugs/obesity_treatment_drugs.html">비만치료 약물</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="../synthetic_drugs/probiotics/manufacturing_facility.html">Probiotics</a>
+                                    <ul>
+                                        <li>
+                                            <a href="../synthetic_drugs/probiotics/manufacturing_facility.html">제조시설</a>
+                                        </li>
+                                        <li>
+                                            <a href="../synthetic_drugs/probiotics/microbial_identification_analysis_service.html">미생물 동적 분석 서비스</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="../synthetic_drugs/manufacturing_facility_busan.html">제조시설(부산공장)</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>
+                                <span>투자정보</span>
+                                <span><img src="../assets/images/header_subArrow.png" alt="arrow"></span>
+                            </span>
+                            <ul class="mo_sub_menu">
+                                <!-- <li>
+                                    <span>전자공시</span>
+                                </li> -->
+                                <li>
+                                    <a href="../investment_information/settlement_announcement.html">전자공고</a>
+                                </li>
+                                <li>
+                                    <a href="../investment_information/financial_information.html">재무정보</a>
+                                </li>
+                                <li>
+                                    <a href="../investment_information/stock_information/stockPrice_information.html">주식정보</a>
+                                    <ul>
+                                        <li>
+                                            <a href="../investment_information/stock_information/stockPrice_information.html">주가정보</a>
+                                        </li>
+                                        <li>
+                                            <a href="../investment_information/stock_information/stock_status.html">주식현황</a>
+                                        </li>
+                                        <li>
+                                            <a href="../investment_information/stock_information/general_information.html">일반현황</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="../investment_information/inside_information.html">내부정보관리규정</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>
+                                <span>윤리경영</span>
+                                <span><img src="../assets/images/header_subArrow.png" alt="arrow"></span>
+                            </span>
+                            <ul class="mo_sub_menu">
+                                <li>
+                                    <a href="../ethical_management/codeOfEthicsAndPracticalGuidelines/code_of_ethics.html">윤리강령 및 실전지침</a>
+                                    <ul>
+                                        <li>
+                                            <a href="../ethical_management/codeOfEthicsAndPracticalGuidelines/code_of_ethics.html">윤리강령</a>
+                                        </li>
+                                        <li>
+                                            <a href="../ethical_management/codeOfEthicsAndPracticalGuidelines/practice_guidelines.html">실전지침</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="../ethical_management/reportingInformationAndProcedures/reporting_information.html">제보안내 및 절차</a>
+                                    <ul>
+                                        <li>
+                                            <a href="../ethical_management/reportingInformationAndProcedures/reporting_information.html">제보안내</a>
+                                        </li>
+                                        <li>
+                                            <a href="../ethical_management/reportingInformationAndProcedures/whistleblower_protection.html">제보자 보호</a>
+                                        </li>
+                                        <li>
+                                            <a href="../ethical_management/reportingInformationAndProcedures/report.html">제보하기</a>
+                                        </li>
+                                        <li>
+                                            <a href="../ethical_management/reportingInformationAndProcedures/processing_procedure.html">처리절차</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="rightBox">
+                        <div class="langBox">
+                            <button class="langBtn_ko active">KOR</button>
+                            <button class="langBtn_en">ENG</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header Fin -->
+
+        <div class="subPage binex location">
+            <div class="banner_area" style="background-image: url('../assets/images/banner.png');">
+                <div>
+                    <h2>오시는 길</h2>
+                </div>
+            </div>
+
+            
+            <div class="stickyNavBox">
+                <div>
+                    <span></span>
+                    <div>
+                        <span>바이넥스</span>
+                        <!-- toggle active 클래스 -->
+                        <ul>
+                            <li>
+                                <span>(주)바이넥스</span>
+                            </li>
+                            <li>
+                                <span>바이오의약품 CDMO</span>
+                            </li>
+                            <li>
+                                <span>제품정보</span>
+                            </li>
+                            <li>
+                                <span>투자정보</span>
+                            </li>
+                            <li>
+                                <span>윤리경영</span>
+                            </li>
+                            <li>
+                                <span>채용정보</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--  -->
+                    <div>
+                        <span>오시는 길</span>
+                        <!-- toggle active 클래스 -->
+                        <ul>
+                            <li>
+                                <span>회사소개</span>
+                            </li>
+                            <li>
+                                <span>CI</span>
+                            </li>
+                            <li>
+                                <span>연혁</span>
+                            </li>
+                            <li>
+                                <span>오시는 길</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contentBox">
+                <div>
+                    <h3><span>바이넥스의 사업장</span>을 안내해드립니다.</h3>
+
+                    
+                    <div class="tabBtnBox">
+                        <div>
+                            <div>
+                                <button class="tabBtn_1 active">바이넥스 본사</button>
+                            </div>
+                            <div>
+                                <button class="tabBtn_2">송도공장</button>
+                            </div>
+                            <div>
+                                <button class="tabBtn_3">오송공장</button>
+                            </div>
+                            <div>
+                                <button class="tabBtn_4">지점안내</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tabContentBox">
+                        <div class="content_1 active">
+                            <div class="left">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3265.4749855705622!2d128.97337117637952!3d35.06986306331472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3568c2b21f77ddcd%3A0x40459a308dea749b!2z67aA7IKw6rSR7Jet7IucIOyCrO2VmOq1rCDri6TrjIDroZwgMzY4LTM!5e0!3m2!1sko!2skr!4v1697506192869!5m2!1sko!2skr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                            <div class="right">
+                                <div class="tableWrap">
+                                    <table class="head_office">
+                                        <tbody>
+                                            <tr>
+                                                <th>
+                                                    <span>주소</span>
+                                                </th>
+                                                <td>부산 사하구 다대로 368-3</td>
+                                            </tr>
+                                            <tr>
+                                                <th>
+                                                    <span>연락처</span>
+                                                </th>
+                                                <td>032-850-3000</td>
+                                            </tr>
+                                            <tr>
+                                                <th>
+                                                    <span>팩스</span>
+                                                </th>
+                                                <td>051-790-4400</td>
+                                            </tr>
+                                            <tr>
+                                                <th rowspan="2">
+                                                    <span>오시는길</span>
+                                                </th>
+                                                <td>
+                                                    <div>
+                                                        <span class="blue">2번, 96번, 338번</span>
+                                                        <span>
+                                                            <span class="green">11 : </span>
+                                                            고려냉장 하차
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        <span>
+                                                            <span class="blue">3번, 103번 : </span>
+                                                            동원자동차 정비공업사 하차
+                                                        </span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div>
+                                                        <span>
+                                                            <span class="orange">부산1호선 : </span>
+                                                            낫개역 3번 출구 (도보 5분)
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        <span>
+                                                            <span class="orange">부산1호선 :</span>
+                                                            신장림역 1번 출구 (도보 6분)
+                                                        </span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 바이넥스 본사 Fin -->
+
+                        <div class="content_2">
+                            <div class="left">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3170.3046152507873!2d126.64964067645418!3d37.38262783465146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b77aa0e38f337%3A0xae81494e71b1d38b!2z7J247LKc6rSR7Jet7IucIOyXsOyImOq1rCDqsK_rsozroZwgMw!5e0!3m2!1sko!2skr!4v1697510281154!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                            <div class="right">
+                                <div class="tableWrap">
+                                    <table class="songdo">
+                                        <tbody>
+                                            <tr>
+                                                <th>
+                                                    <span>주소</span>
+                                                </th>
+                                                <td>인천광역시 연수구 갯벌로 3</td>
+                                            </tr>
+                                            <tr>
+                                                <th>
+                                                    <span>연락처</span>
+                                                </th>
+                                                <td>032-850-3000</td>
+                                            </tr>
+                                            <tr>
+                                                <th>
+                                                    <span>팩스</span>
+                                                </th>
+                                                <td>032-850-3299</td>
+                                            </tr>
+                                            <tr>
+                                                <th rowspan="2">
+                                                    <span>오시는길</span>
+                                                </th>
+                                                <td>
+                                                    <div>
+                                                        <span class="green">순환 43번</span>
+                                                        <span>
+                                                            <span class="blue">급행 99번, 간선 81번 :</span>
+                                                            테크노파크역 하차
+                                                        </span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div>
+                                                        <span>
+                                                            <span class="skyblue">인천1호선 : </span>
+                                                            테크노파크역 3번 출구 (경제자유구역청, 미추홀타워방면)
+                                                        </span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 송도공장 Fin -->
+
+                        <div class="content_3">
+                            <div class="left">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3201.6652454528316!2d127.33010817642955!3d36.63444367702472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35652c8c3ab3c6d1%3A0x2b88539c0a44a8e3!2z7Lap7LKt67aB64-EIOyyreyjvOyLnCDtnaXrjZXqtawg7Jik7Iah7J2NIOyYpOyGoeyDneuqhTXroZwgMTQ3!5e0!3m2!1sko!2skr!4v1697511095886!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                            <div class="right">
+                                <div class="tableWrap">
+                                    <table class="osong">
+                                        <tbody>
+                                            <tr>
+                                                <th>
+                                                    <span>주소</span>
+                                                </th>
+                                                <td>충북 청주시 흥덕구 오송읍 오송생명5로 147</td>
+                                            </tr>
+                                            <tr>
+                                                <th>
+                                                    <span>연락처</span>
+                                                </th>
+                                                <td>032-850-3000</td>
+                                            </tr>
+                                            <tr>
+                                                <th>
+                                                    <span>팩스</span>
+                                                </th>
+                                                <td>043-711-3607</td>
+                                            </tr>
+                                            <tr>
+                                                <th rowspan="2">
+                                                    <span>오시는길</span>
+                                                </th>
+                                                <td>
+                                                    <div>
+                                                        <span class="blue">53번, 500번</span>
+                                                        <span>
+                                                            <span class="green">515-1번, 535번 : </span>
+                                                            만수공원 하차
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        <span>
+                                                            <span class="blue">511번 : </span>
+                                                            오송119안전센터 하차
+                                                        </span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div>
+                                                        <span class="ktx">오송역 인근 5분거리</span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 오송공장 Fin -->
+
+                        <div class="content_4">
+                            <div>
+                                <ul class="table">
+                                    <li class="thead">
+                                        <div class="tr">
+                                            <span>지점명</span>
+                                            <span>주소</span>
+                                            <span>대표전화</span>
+                                            <span>지도</span>
+                                        </div>
+                                    </li>
+
+
+                                    <!-- li에 active붙으면 아코디언 형태로 지도가 열립니다. -->
+                                    <li class="active">
+                                        <div class="tr">
+                                            <span>서울지점</span>
+                                            <span>서울특별시 영등포구 양평로21길 26 선유도역1차 IS비즈타워 1405호</span>
+                                            <span>02-2631-8334</span>
+                                            <span></span>
+                                        </div>
+                                        <div class="mapBox">
+                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.8047841937337!2d126.88928867645933!3d37.536098825871804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c9f5494f05def%3A0x6ad2acb5e3247b1b!2z7ISg7Jyg64-EIOyVhOydtOyXkOyKpOu5hOymiO2DgOybjA!5e0!3m2!1sko!2skr!4v1697675253270!5m2!1sko!2skr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                        </div>
+                                    </li>
+                                    <!-- 서울지점 -->
+                                    <li>
+                                        <div class="tr">
+                                            <span>충청지점</span>
+                                            <span>대전광역시 서구 괴정로 125 대림약품 2층 (주)바이넥스</span>
+                                            <span>042-533-4965</span>
+                                            <span></span>
+                                        </div>
+                                        <div class="mapBox">
+                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3213.9798416531457!2d127.38396407641999!3d36.33703839367003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35654956e97a9273%3A0x581543d64d1096e3!2z64yA7KCE6rSR7Jet7IucIOyEnOq1rCDqtLTsoJXroZwgMTI1IDLsuLU!5e0!3m2!1sko!2skr!4v1697676248060!5m2!1sko!2skr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                        </div>
+                                    </li>
+                                    <!-- 충청지점 -->
+                                    <li>
+                                        <div class="tr">
+                                            <span>부산지점</span>
+                                            <span>부산광역시 사하구 다대로 368-3 (주)바이넥스</span>
+                                            <span>051-622-1112</span>
+                                            <span></span>
+                                        </div>
+                                        <div class="mapBox">
+                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3265.4738852736155!2d128.97333217637956!3d35.069890563313244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3568c2b21ff33e93%3A0x694e429695be7e6e!2z67CU7J2064Sl7Iqk!5e0!3m2!1sko!2skr!4v1697683626831!5m2!1sko!2skr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                        </div>
+                                    </li>
+                                    <!-- 부산지점 -->
+                                    <li>
+                                        <div class="tr">
+                                            <span>경남지점</span>
+                                            <span>경남 창원시 의창구 남산로1번길 20 3층 (주)바이넥스</span>
+                                            <span>055-255-4563</span>
+                                            <span></span>
+                                        </div>
+                                        <div class="mapBox">
+                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3257.8064138942677!2d128.6100430763856!3d35.261071552939164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356f33750bd640b9%3A0x8088dfa242358bc8!2z6rK97IOB64Ko64-EIOywveybkOyLnCDsnZjssL3qtawg64Ko7IKw66GcMeuyiOq4uCAyMCAz7Li1!5e0!3m2!1sko!2skr!4v1697683682429!5m2!1sko!2skr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                        </div>
+                                    </li>
+                                    <!-- 경남지점 -->
+                                    <li>
+                                        <div class="tr">
+                                            <span>전남지점</span>
+                                            <span>광주광역시 북구 중흥로 153-14 6층 (주)바이넥스</span>
+                                            <span>062-381-0591</span>
+                                            <span></span>
+                                        </div>
+                                        <div class="mapBox">
+                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3261.7602056477217!2d126.90858907638241!3d35.16260065828857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35718c8aaac08293%3A0xacaf2b551b0503ba!2z6rSR7KO86rSR7Jet7IucIOu2geq1rCDspJHtnaXroZwgMTUzLTE0IDbsuLU!5e0!3m2!1sko!2skr!4v1697683727876!5m2!1sko!2skr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                        </div>
+                                    </li>
+                                    <!-- 전남지점 -->
+                                    <li>
+                                        <div class="tr">
+                                            <span>강원지점</span>
+                                            <span>강원도 원주시 시청로 21-1 중부타워 3층 303호 (주)바이넥스</span>
+                                            <span>033-734-3044</span>
+                                            <span></span>
+                                        </div>
+                                        <div class="mapBox">
+                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3172.0708617726045!2d127.92076067645272!3d37.34083103703735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3563757b7e124529%3A0x9bf16955227dee29!2z7KSR67aA7YOA7JuM!5e0!3m2!1sko!2skr!4v1697683764962!5m2!1sko!2skr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                        </div>
+                                    </li>
+                                    <!-- 강원지점 -->
+                                    <li>
+                                        <div class="tr">
+                                            <span>경북지점</span>
+                                            <span>대구시 수성구 알파시티1로 135 광명테크 3층 ㈜바이넥스</span>
+                                            <span>053-525-5887</span>
+                                            <span></span>
+                                        </div>
+                                        <div class="mapBox">
+                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3234.579309050199!2d128.68264391670917!3d35.83479612115931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3566099a6e5bd02d%3A0x51e10d7214a42497!2z64yA6rWs6rSR7Jet7IucIOyImOyEseq1rCDslYztjIzsi5zti7Ax66GcIDEzNSAz7Li1!5e0!3m2!1sko!2skr!4v1697683810392!5m2!1sko!2skr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                        </div>
+                                    </li>
+                                    <!-- 경북지점 -->
+                                    <li>
+                                        <div class="tr">
+                                            <span>제주지점</span>
+                                            <span>제주특별자치도 제주시 화삼로 167 307동 1001호 (주)바이넥스</span>
+                                            <span>070-7715-7673</span>
+                                            <span></span>
+                                        </div>
+                                        <div class="mapBox">
+                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.3427133095006!2d126.57968708867888!3d33.51847417705565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350ce2f27addabf5%3A0xb1baffc265d27e1f!2z7KCc7KO87Yq567OE7J6Q7LmY64-EIOygnOyjvOyLnCDtmZTsgrzroZwgMTY3IDEwMDHtmLg!5e0!3m2!1sko!2skr!4v1697683849976!5m2!1sko!2skr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                        </div>
+                                    </li>
+                                    <!-- 제주지점 -->
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- 지점안내 Fin -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <footer>
+            <div>
+                <ul>
+                    <li>
+                        <a href="../company/aboutUs/company_overview.html">회사소개</a>
+                    </li>
+                    <li>
+                        <a href="../synthetic_drugs/product_search.html">제품검색</a>
+                    </li>
+                    <li>
+                        <a href="../contactUs/contactUs.html">문의하기</a>
+                    </li>
+                    <li>
+                        <a href="../investment_information/inside_information.html">내부정보관리규정</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <a href="../index.html">footer logo</a>
+                <div>
+                    <span>
+                        <span>(주)바이넥스</span>
+                    </span>
+                    <span>
+                        <span>대표이사</span>
+                        이혁종
+                    </span>
+                    <span>부산시 사하구 다대로 368-3</span>
+                </div>
+                <div>
+                    <span>
+                        <span>Email</span>
+                        admin@bmcnet.kr
+                    </span>
+                    <span>
+                        <span>Fax</span>
+                        032.837.5388
+                    </span>
+                </div>
+                <p>Copyright © ALINK3D. All rights reserved.</p>
+            </div>
+        </footer>    
+        <!-- footer Fin -->
+    </div>
+</body> 
+</html>

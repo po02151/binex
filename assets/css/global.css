@@ -1,0 +1,244 @@
+*{font-family: 'pretendard';}
+button{cursor: pointer;}
+.header_mo{display: none;}
+
+.header_pc,
+footer > div:nth-child(1) ul,
+footer > div:nth-child(2){width: 1600px; margin: 0 auto;}
+
+header{border-bottom: 1px solid #EEEEEE; position: fixed; left: 0; background-color: #fff; top: -90px; width: 100%; z-index: 9999; transition: all 0.3s;}
+header.fixed{top: 0;}
+.header_pc{display: flex;}
+.header_pc h1{cursor: pointer; width: 8.4%;}
+.header_pc h1 a{height: 110px; text-indent: -9999px; display: block; background: url('../../assets/images/binex_logo.png') center / contain no-repeat; max-width: 134px; width: 100%;}
+.header_pc > div{width: 91.6%; display: flex; height: 110px; align-items: center;}
+.header_pc nav{width: 76.76%;}
+.header_pc nav > ul{display: flex; justify-content: right; align-items: center;}
+.header_pc nav > ul > li{position: relative;}
+.header_pc nav > ul > li:nth-child(1),
+.header_pc .megaMenu .nav > li:nth-child(1){width: 140px;}
+.header_pc nav > ul > li:nth-child(2),
+.header_pc .megaMenu .nav > li:nth-child(2){width: 230px;}
+.header_pc nav > ul > li:nth-child(3),
+.header_pc .megaMenu .nav > li:nth-child(3){width: 160px;}
+.header_pc nav > ul > li:nth-child(4),
+.header_pc .megaMenu .nav > li:nth-child(4){width: 145px;}
+.header_pc nav > ul > li:nth-child(5),
+.header_pc .megaMenu .nav > li:nth-child(5){width: 150px;}
+.header_pc nav > ul > li:nth-child(6),
+.header_pc .megaMenu .nav > li:nth-child(6){width: 70px;}
+
+
+.header_pc nav > ul > li > span{cursor: pointer; text-decoration: none; display: block; line-height: 110px; font-size: 18px; font-weight: 500; color: #555555;}
+/* .header_pc nav > ul > li:hover > span,
+.header_pc nav > ul > li.active > span{color: #C22C02;} */
+
+.header_pc nav > ul > li > .sub_menu{padding: 12px 0; border-radius: 5px; transition: opacity 0.3s ease-out; background-color: #fff; top: 80px; left: 0; position: absolute; visibility: hidden; opacity: 0;}
+.header_pc nav > ul > li > .sub_menu > li > span{cursor: pointer;  line-height: 20px; font-size: 17px; font-weight: 400; color: #555555; text-decoration: none; display: block; padding: 6px 0;}
+.header_pc nav > ul > li > .sub_menu > li > span:hover{font-weight: 500; color: #444444; text-decoration: underline;}
+.header_pc nav > ul > li > .sub_menu_1{width: 155px;}
+.header_pc nav > ul > li > .sub_menu_2{width: 170px;}
+.header_pc nav > ul > li > .sub_menu_3{width: 200px;}
+.header_pc nav > ul > li > .sub_menu_4{width: 200px;}
+.header_pc nav > ul > li > .sub_menu_5{width: 155px;}
+.header_pc nav > ul > li:hover > span + .sub_menu{visibility: visible; opacity: 1;}
+.header_pc .rightBox{width: 23.23%; display: flex; align-items: center; justify-content: right;}
+.header_pc .rightBox .contactUsBtn{font-size: 15px; font-weight: 600; color: #999999; border: none; padding: 0; text-decoration: none; background-color: transparent;}
+.header_pc .rightBox .langBox{position: relative; margin-left: 40px;}
+.header_pc .rightBox .langBox button{position: relative; background-color: transparent; padding: 0 25px 0 0; border: none; font-size: 14px; font-weight: 500; color: #666666;}
+.header_pc .rightBox .langBox button:after{content: ''; display: block; position: absolute; right: 0; top: 50%; transform: translateY(-50%); background: url('../../assets/images/langBtn_arrow.png') center / contain no-repeat; width: 8px; height: 5px;}
+.header_pc .rightBox .langBox button.active + div{display: block;}
+.header_pc .rightBox .langBox > div{background-color: #fff; padding: 5px; box-sizing: border-box; border-radius: 5px; left: 50%; transform: translateX(-50%); box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.07); position: absolute; top: 25px; display: none;}
+.header_pc .rightBox .langBox > div span{border-radius: 3px; cursor: pointer; display: block; font-size: 14px; font-weight: 500; color: #CCCCCC; padding: 5px 10px;}
+.header_pc .rightBox .langBox > div span:hover{color: #EE0000; background-color: #F9F9F9;}
+.header_pc .megaMenu{transition: all 0.3s ease-out; border-bottom: 1px solid #EEEEEE; border-top: 1px solid #EE0000; width: 100%; background-color: #fff; left: 0; top: 110px; position: absolute; visibility: hidden; opacity: 0;}
+.header_pc .megaMenu > div{display: flex; width: 1600px; margin: 0 auto;}
+.header_pc .megaMenu > div > div:nth-of-type(1){text-indent: -9999px; width: 8.4%;}
+.header_pc .megaMenu > div > div:nth-of-type(2){display: flex; width: 91.6%;}
+.header_pc .megaMenu > div > div:nth-of-type(2) .nav{width: 76.76%;}
+.header_pc .megaMenu > div > div:nth-of-type(2) > div{text-indent: -9999px; width: 23.23%;}
+.header_pc .megaMenu .nav{display: flex; justify-content: right; margin: 0 auto;}
+.header_pc .megaMenu .nav > li{padding: 30px 0;}
+.header_pc .megaMenu .nav > li > ul > li:hover *:not(.none){cursor: pointer;}
+.header_pc .megaMenu .nav > li > ul > li a{text-decoration: none; font-size: 15px; font-weight: 600; color: #444444;}
+.header_pc .megaMenu .nav > li > ul > li:not(:last-child){margin-bottom: 15px;}
+.header_pc .megaMenu .nav > li > ul > li > ul{padding: 15px 0 10px 0;}
+.header_pc .megaMenu .nav > li > ul > li > ul > li a{font-size: 14px; line-height: 16px; color: #666666; font-weight: 400;}
+.header_pc .megaMenu .nav > li > ul > li > ul > li:hover{color: #EE0000;}
+.header_pc .megaMenu .nav > li > ul > li > ul > li:not(:last-child){margin-bottom: 10px;}
+.header_pc .megaMenu ul li span{display: block;}
+.header_pc nav > ul:hover + .megaMenu,
+.header_pc nav .megaMenu:hover{visibility: visible; opacity: 1;}
+
+
+
+header.active{background-color: #fff; border-bottom: 1px solid #EEEEEE;}
+header.active .header_pc h1 a{background-image: url('../../assets/images/hyundaiN_logo_active.png');}
+
+header.active .header_pc nav > ul > li > span{color: #444444;}
+header.active .header_pc nav > ul > li:nth-child(2) > span{background-image: url('../../assets/images/liebherr_logo_active.png');}
+header.active .header_pc nav > ul > li:nth-child(3) > span{background: url('../../assets/images/hyundai_logo_active.png') center / contain no-repeat; width: 112px; height: 17px;}
+header.active .header_pc .rightBox .langBox button{background-image: url('../../assets/images/langBtn_active.png');}
+
+
+
+/* 햄버거 버튼 */
+/* .header_pc .hamburger{margin-left: 45px; cursor: pointer; background-color: transparent; border: none; padding: 0; width: 18px; display: block;}
+.header_pc .hamburger span{display: block; width: 18px; border-bottom: 2px solid #fff; transition: all 0.4s;}
+.header_pc .hamburger span:not(:last-child){margin-bottom: 4px;}
+.header_pc.active .hamburger span{border-color: #256DCB;}
+.header_pc.active .hamburger span:nth-child(1){transform: translateY(2px) rotate(45deg);}
+.header_pc.active .hamburger span:nth-child(3){transform: translateY(-4px) rotate(-45deg);}
+.header_pc.active .hamburger span:nth-child(2){display: none;}    */
+/* 햄버거 버튼 */
+
+
+
+
+/* 모바일 햄버거 버튼 */
+.header_mo .hamburger{cursor: pointer; background-color: transparent; border: none; padding: 0; width: 20px; display: block; position: fixed; top: 32px; right: 6%;}
+.header_mo .hamburger span{display: block; width: 20px; border-bottom: 3px solid #EE0000; transition: all 0.4s;}
+.header_mo .hamburger span:not(:last-child){margin-bottom: 4px;}
+.header_mo.active .hamburger span{border-color: EE0000;}
+.header_mo.active .hamburger span:nth-child(1){transform: translateY(8px) rotate(45deg);}
+.header_mo.active .hamburger span:nth-child(3){transform: translateY(1px) rotate(-45deg);}
+.header_mo.active .hamburger span:nth-child(2){display: none;}   
+/* 모바일 햄버거 버튼 Fin */
+
+.header_mo{position: fixed; height: 80px; width: 100%; left: 0; top: 0; z-index: 999; font-family: 'pretendard'; padding: 0 5%; box-sizing: border-box;}
+.header_mo.active{height: 100%;}
+.header_mo .top{background-color: #fff; left: 0; top: 0; display: flex; align-items: center; padding: 0 5%; justify-content: space-between; position: fixed; width: 100%; height: 80px;}
+.header_mo .top h1 a{display: block; height: 80px; text-indent: -9999px; display: block; background: url('../../assets/images/binex_logo.png') center / contain no-repeat; width: 100%; min-width: 110px;}
+.header_mo .nav{display: none; padding: 0 5%; box-sizing: border-box; height: calc(100% - 80px); overflow-y: auto; overflow-x: hidden; position: fixed; width: 100%; top: 80px; left: 0;}
+.header_mo.active .nav{display: block;}
+.header_mo .nav ul li{cursor: pointer;}
+.header_mo .nav > ul{margin-top: 30px; padding-bottom: 30px;}
+.header_mo .nav > ul li span{line-height: 50px; font-weight: 500; color: #555555; text-decoration: none;}    
+.header_mo .nav > ul > li:not(:last-child){border-bottom: 1px solid #EEEEEE;}
+.header_mo .nav > ul > li > span{font-size: 18px; font-weight: 600; display: block; position: relative;}
+.header_mo .nav > ul > li > ul > li > span,
+.header_mo .nav > ul > li > ul > li > a{font-size: 16px;}
+.header_mo .nav > ul > li > ul > li > a{line-height: 50px; font-weight: 500; color: #555555; text-decoration: none; display: block;}
+.header_mo .nav > ul > li > span.active{color: #1F4E79;}
+.header_mo .nav > ul > li > span > span:nth-child(2){position: absolute; right: 0; top: 50%; transform: translateY(-50%);}
+.header_mo .nav > ul > li > span > span:nth-child(2) img{transform: rotate(0deg); transition: 0.5s ease-in-out;}
+.header_mo .nav > ul > li > span.active > span:nth-child(2) img{transform: rotate(-180deg);}  
+.header_mo .nav > ul > li > ul{display: none; padding: 0 10px 20px 10px; box-sizing: border-box;}
+.header_mo .nav > ul > li > ul > li{font-size: 14px; font-weight: 400; color: #666666;}
+.header_mo .nav > ul > li > ul > li > ul{padding: 0 10px; box-sizing: border-box;}
+.header_mo .nav > ul > li > ul > li > ul > li > a{font-size: 14px; font-weight: 400; color: #666666; display: block; text-decoration: none; padding: 10px 0;}
+/* .header_mo .mo_sub_menu{display: none;} */
+.header_mo .nav .rightBox{justify-content: space-between; padding-bottom: 30px; align-items: center; display: flex; flex-wrap: wrap; width: 100%; position: sticky; top: 100%;}
+.header_mo .nav .rightBox .langBox{display: flex; align-items: center;}
+.header_mo .nav .rightBox .langBox button{border-radius: 5px; padding: 5px 10px; border: none; background-color: transparent; font-size: 18px; color: #EE0000;}
+.header_mo .nav .rightBox .langBox button:not(:first-child){margin-left: 15px;}
+.header_mo .nav .rightBox .langBox button.active{color: #fff; background-color: #EE0000;}
+
+.header_mo .top.active{background-color: #fff;}
+.header_mo .top.active h1 a{background-image: url('../../assets/images/binex_logo.png');}
+.header_mo .top.active .hamburger span{border-color: #EE0000;}
+.header_mo.active .nav{background-color: #fff;}
+/* mobile_header Fin  */
+/* -----------------------------------header Fin---------------------------- */
+
+
+footer{border-top: 1px solid #EE0000;}
+footer > div:nth-child(1){border-bottom: 1px solid #EEEEEE;}
+footer > div:nth-child(1) ul{display: flex;}
+footer > div:nth-child(1) ul li{cursor: pointer; padding: 20px 0;}
+footer > div:nth-child(1) ul li:not(:first-child){margin-left: 40px;}
+footer > div:nth-child(1) ul li:not(.red) a{text-decoration: none; font-size: 14px; font-weight: 400; color: #555555;}
+footer > div:nth-child(1) ul li.red{font-size: 14px; font-weight: 500; color: #CB0000;}
+footer > div:nth-child(2){position: relative; padding: 30px 0 20px 0;}
+footer > div:nth-child(2) span{font-size: 14px; font-weight: 300; color: #555555; line-height: 22px;}
+footer > div:nth-child(2) span span{margin-right: 5px; font-weight: 600; color: #555555; font-size: 14px;}
+footer > div:nth-child(2) span:not(:first-of-type),
+footer > div:nth-child(2) > div:nth-of-type(2) > div:not(:first-of-type){padding-left: 25px; margin-left: 25px; position: relative;}
+footer > div:nth-child(2) span:not(:first-of-type):before,
+footer > div:nth-child(2) > div:nth-of-type(2) > div:not(:first-of-type):before{content: ''; width: 1px; height: 18px; background-color: #DDDDDD; position: absolute; left: 0; top: 50%; transform: translateY(-50%);}
+footer > div:nth-child(2) > div{display: flex;}
+footer > div:nth-child(2) > div:not(:last-of-type){margin-bottom: 25px;}
+footer > div:nth-child(2) > div:nth-of-type(2) > div{display: flex;}
+footer > div:nth-child(2) > div:nth-of-type(2) > div > span{margin-right: 10px; font-weight: 600; color: #555555; font-size: 14px;}
+footer > div:nth-child(2) > div:nth-of-type(2) > div address{font-size: 14px; font-weight: 300; line-height: 22px; color: #666666; font-style: normal;}
+footer > div:nth-child(2) > div:nth-of-type(2) > div address span{font-size: 14px; font-weight: 500; color: #555555; line-height: 22px;}
+footer > div:nth-child(2) > div:nth-of-type(2) > div address:not(:first-of-type){margin-left: 20px;}
+footer > div:nth-child(2) > a{text-indent: -9999px; position: absolute; right: 0; top: 30px; width: 134px; height: 54px; background: url('../../assets/images/binex_footer_logo.png') center / contain no-repeat;}
+footer > div:nth-child(2) > p{margin-top: 65px; font-size: 12px; line-height: 24px; color: #999999; font-weight: 300;}
+
+
+.topBtn{transition: background 0.2s ease-out; border: none; position: fixed; right: 30px; bottom: 30px; width: 60px; height: 60px; border-radius: 100%;
+    background: transparent;
+    /* Note: currently only Safari supports backdrop-filter */
+    backdrop-filter: blur(15px);
+    --webkit-backdrop-filter: blur(15px);
+    background-color: rgba(0, 0, 0, 0.15);    
+}
+.topBtn:hover{background-color: rgba(0, 0, 0, 0.2);}
+.topBtn:after{content: ''; display: block; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 18px; height: 24px; background: url('../../assets/images/topBtn.png') center / contain no-repeat;}
+
+
+@media (max-width:1700px){
+    .header_pc,
+    .header_pc .megaMenu > div,
+    footer > div:nth-child(1) ul,
+    footer > div:nth-child(2){width: 90%;}
+    footer > div{width: 100%;}
+    
+    footer{padding: 0 0 30px 0;}
+
+    .header_pc nav,
+    .header_pc .megaMenu > div > div:nth-of-type(2) .nav{width: 81.76%;}
+    .header_pc .rightBox,
+    .header_pc .megaMenu > div > div:nth-of-type(2) > div{width: 20.23%;}
+    .header_pc nav > ul > li:nth-child(1),
+    .header_pc .megaMenu .nav > li:nth-child(1){width: 120px;}
+    .header_pc nav > ul > li:nth-child(2),
+    .header_pc .megaMenu .nav > li:nth-child(2){width: 210px;}
+    .header_pc nav > ul > li:nth-child(3),
+    .header_pc .megaMenu .nav > li:nth-child(3){width: 140px;}
+    .header_pc nav > ul > li:nth-child(4),
+    .header_pc .megaMenu .nav > li:nth-child(4){width: 125px;}
+    .header_pc nav > ul > li:nth-child(5),
+    .header_pc .megaMenu .nav > li:nth-child(5){width: 130px;}
+    .header_pc nav > ul > li:nth-child(6),
+    .header_pc .megaMenu .nav > li:nth-child(6){width: 70px;}
+
+}
+
+@media (max-width:1280px){
+    .header_pc{display: none;}
+    .header_mo{display: block;}
+    
+    footer > div:nth-child(2) > div{flex-wrap: wrap;}
+    footer > div:nth-child(2) > div:nth-of-type(2) > div{width: 100%; margin-top: 25px;}
+    footer > div:nth-child(2) > div:nth-of-type(2) > div:not(:first-of-type){padding-left: 0; margin-left: 0;}
+    footer > div:nth-child(2) > div:nth-of-type(2) > div:not(:first-of-type):before{display: none;}
+}
+
+
+@media (max-width:1024px){
+    footer > div:nth-child(2) > a{top: auto; bottom: 0;}
+
+    footer > div:nth-child(2) > div:nth-of-type(2) > div{flex-wrap: wrap;}
+    footer > div:nth-child(2) > div:nth-of-type(2) > div:not(:first-of-type) > span{display: block;}
+    footer > div:nth-child(2) > div:nth-of-type(2) > div address{width: 100%;}
+    footer > div:nth-child(2) > div:nth-of-type(2) > div address:not(:first-of-type){margin-left: 0;}
+}
+
+
+@media (max-width:768px){
+    footer > div:nth-child(1) ul{overflow-x: auto; flex-wrap: nowrap; white-space: nowrap;}
+    footer > div:nth-child(1) ul li{display: block; width: 200px;}
+    footer > div:nth-child(2) span{display: block;}
+    footer > div:nth-child(2) span:not(:first-of-type){padding-left: 0; margin-left: 0;}
+    footer > div:nth-child(2) span:not(:first-of-type):before{display: none;}
+    footer > div:nth-child(2) span span{display: inline-block;}
+    footer > div:nth-child(2) > div:not(:last-of-type){margin-bottom: 0;}
+    footer > div:nth-child(2) > p{margin-top: 30px;}
+    footer > div:nth-child(2) > a{bottom: auto; top: 30px;}
+
+    footer > div:nth-child(2) > div:nth-of-type(1) > span{display: block; width: 100%;}
+    footer > div:nth-child(2) > div:nth-of-type(2) > div{flex-wrap: wrap;}
+    footer > div:nth-child(2) > div:nth-of-type(2) > div > span{width: 100%;}
+}

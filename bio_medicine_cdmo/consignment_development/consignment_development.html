@@ -1,0 +1,1213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no, address=no, email=no">
+    <title>CDO</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="../../assets/js/common.js"></script>
+    <script src="https://kit.fontawesome.com/b025689c8c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../../assets/css/import.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+</head>
+<body>
+    <div class="wrap">
+        <header class="fixed">
+            <!-- pc일 때 스크롤 시 header에 active클래스 추가. -->
+            <div class="header_pc">
+                <h1>
+                    <a href="../../index.html">
+                        logo
+                    </a>
+                </h1>
+
+                <div>
+                    <nav>
+                        <ul>
+                            <li>
+                                <span>바이넥스</span>
+                            </li>
+                            <li>
+                                <span>바이오의약품 CDMO</span>
+                            </li>
+                            <li>
+                                <span>합성의약품</span>
+                            </li>
+                            <li>
+                                <span>투자정보</span>
+                            </li>
+                            <li>
+                                <span>윤리경영</span>
+                            </li>
+                            <li>
+                                <span>채용정보</span>
+                            </li>
+                        </ul>
+                        <div class="megaMenu">
+                            <div>
+                                <div>leftArea</div>
+                                <div>
+                                    <ul class="nav">
+                                        <li>
+                                            <ul>
+                                                <li>
+                                                    <a href="../../company/aboutUs/company_overview.html" class="none">회사소개</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="../../company/aboutUs/company_overview.html">회사개요</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="../../company/aboutUs/vision.html">비전</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="../../company/aboutUs/greetings.html">인사말</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="../../company/aboutUs/business_areas.html">사업분야</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="../../company/ci.html">CI</a>
+                                                </li>
+                                                <li>
+                                                    <a href="../../company/history.html">연혁</a>
+                                                </li>
+                                                <li>
+                                                    <a href="../../company/location.html">오시는 길</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li>
+                                                    <a href="../../bio_medicine_cdmo/business_overview.html">CDMO 사업개요</a>
+                                                </li>
+                                                <li>
+                                                    <a href="../../bio_medicine_cdmo/consignment_development/consignment_development.html" class="none">CDO</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a class="tab1" data-toggle="tab" href="../../bio_medicine_cdmo/consignment_development/consignment_development.html#tab1">세포주 개발</a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="tab2" data-toggle="tab" href="../../bio_medicine_cdmo/consignment_development/consignment_development.html#tab2">공정개발</a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="tab3" data-toggle="tab" href="../../bio_medicine_cdmo/consignment_development/consignment_development.html#tab3">분석법 개발</a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="tab4" data-toggle="tab" href="../../bio_medicine_cdmo/consignment_development/consignment_development.html#tab4">바이오분석지원센터</a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="tab5" data-toggle="tab" href="../../bio_medicine_cdmo/consignment_development/consignment_development.html#tab5">연구용 시료 생산</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="../../bio_medicine_cdmo/consignment_production/consignment_production.html" class="none">CMO</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a data-toggle="tab" href="../../bio_medicine_cdmo/consignment_production/consignment_production.html#tab1">원제의약품</a>
+                                                        </li>
+                                                        <li>
+                                                            <a data-toggle="tab" href="../../bio_medicine_cdmo/consignment_production/consignment_production.html#tab2">완제의약품</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="../../bio_medicine_cdmo/quality/quality.html" class="none">Quality</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="../../bio_medicine_cdmo/quality/quality.html#tab1">품질시스템</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="../../bio_medicine_cdmo/quality/quality.html#tab2">품질관리</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li>
+                                                    <a href="../../synthetic_drugs/product_search.html">제품검색</a>
+                                                </li>
+                                                <li>
+                                                    <a href="../../synthetic_drugs/product_license_changes.html">제품공지사항</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="../../synthetic_drugs/product_license_changes.html">허가 변경사항</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="../../synthetic_drugs/obesity_treatment_drugs.html">비만치료 약물</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="../../synthetic_drugs/probiotics/manufacturing_facility.html">Probiotics</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="../../synthetic_drugs/probiotics/manufacturing_facility.html">제조시설</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="../../synthetic_drugs/probiotics/microbial_identification_analysis_service.html">미생물 동정 분석 서비스</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="../../synthetic_drugs/manufacturing_facility_busan.html">제조시설(부산공장)</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <!-- <li>
+                                                    <a href="">전자공시</a>
+                                                </li> -->
+                                                <li>
+                                                    <a href="../../investment_information/settlement_announcement.html">전자공고</a>
+                                                </li>
+                                                <li>
+                                                    <a href="../../investment_information/financial_information.html">재무정보</a>
+                                                </li>
+                                                <li>
+                                                    <a href="../../investment_information/stock_information/stockPrice_information.html" class="none">주식정보</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="../../investment_information/stock_information/stockPrice_information.html">주가정보</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="../../investment_information/stock_information/stock_status.html">주식현황</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="../../investment_information/stock_information/general_information.html">일반현황</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="../../investment_information/inside_information.html">내부정보관리규정</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li>
+                                                    <a href="../../ethical_management/codeOfEthicsAndPracticalGuidelines/code_of_ethics.html" class="none">윤리강령 및 실전지침</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="../../ethical_management/codeOfEthicsAndPracticalGuidelines/code_of_ethics.html">윤리강령</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="../../ethical_management/codeOfEthicsAndPracticalGuidelines/practice_guidelines.html">실전지침</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="../../ethical_management/reportingInformationAndProcedures/reporting_information.html">제보안내 및 절차</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="../../ethical_management/reportingInformationAndProcedures/reporting_information.html">제보안내</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="../../ethical_management/reportingInformationAndProcedures/whistleblower_protection.html">제보자 보호</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="../../ethical_management/reportingInformationAndProcedures/report.html">제보하기</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="../../ethical_management/reportingInformationAndProcedures/processing_procedure.html">처리절차</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li>
+                                                    <a href="../../recruitment_information/ideal_talent.html">인재상</a>
+                                                </li>
+                                                <li>
+                                                    <a href="../../recruitment_information/welfare_benefits.html">복리후생</a>
+                                                </li>
+                                                <li>
+                                                    <a href="../../recruitment_information/job_posting.html">채용안내</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <div>rightArea</div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                    <div class="rightBox">
+                        <a href="../../contactUs/contactUs.html" class="contactUsBtn">문의하기</a>
+                        <div class="langBox">
+                            <button>KOR</button>
+                            <div>
+                                <span>KOR</span>
+                                <span>ENG</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+            <!-- 모바일 헤더 : 스크롤 시 top이라는 클래스가 붙은 div에 active클래스 추가. -->
+            <!-- hamburger 버튼 클릭 시 header_mo에 active클래스 추가. -->
+            <div class="header_mo">
+                <div class="top">
+                    <h1>
+                        <a href="../../index.html">
+                            logo
+                        </a>
+                    </h1>
+                    <button class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li>
+                            <span>
+                                <span>바이넥스</span>
+                                <span><img src="../../assets/images/header_subArrow.png" alt="arrow"></span>
+                            </span>
+                            <ul class="mo_sub_menu">
+                                <li>
+                                    <a href="../../company/aboutUs/company_overview.html">회사소개</a>
+                                    <ul>
+                                        <li>
+                                            <a href="../../company/aboutUs/company_overview.html">회사개요</a>
+                                        </li>
+                                        <li>
+                                            <a href="../../company/aboutUs/vision.html">비전</a>
+                                        </li>
+                                        <li>
+                                            <a href="../../company/aboutUs/greetings.html">인사말</a>
+                                        </li>
+                                        <li>
+                                            <a href="../../company/aboutUs/business_areas.html">사업분야</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="../../company/ci.html">CI</a>
+                                </li>
+                                <li>
+                                    <a href="../../company/history.html">연혁</a>
+                                </li>
+                                <li>
+                                    <a href="../../company/location.html">오시는 길</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>
+                                <span>바이오의약품 CDMO</span>
+                                <span><img src="../../assets/images/header_subArrow.png" alt="arrow"></span>
+                            </span>
+                            <ul class="mo_sub_menu">
+                                <li>
+                                    <a href="../../bio_medicine_cdmo/business_overview.html">CDMO 사업개요</a>
+                                </li>
+                                <li>
+                                    <a href="../../bio_medicine_cdmo/consignment_development/consignment_development.html">CDO</a>
+                                    <ul>
+                                        <li>
+                                            <a class="tab1" href="../../bio_medicine_cdmo/consignment_development/consignment_development.html#tab1">세포주 개발</a>
+                                        </li>
+                                        <li>
+                                            <a class="tab2" href="../../bio_medicine_cdmo/consignment_development/consignment_development.html#tab2">공정개발</a>
+                                        </li>
+                                        <li>
+                                            <a class="tab3" href="../../bio_medicine_cdmo/consignment_development/consignment_development.html#tab3">분석법 개발</a>
+                                        </li>
+                                        <li>
+                                            <a class="tab4" href="../../bio_medicine_cdmo/consignment_development/consignment_development.html#tab4">바이오분석지원센터</a>
+                                        </li>
+                                        <li>
+                                            <a class="tab5" href="../../bio_medicine_cdmo/consignment_development/consignment_development.html#tab5">연구용 시료 생산</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="../../bio_medicine_cdmo/consignment_production/consignment_production.html">CMO</a>
+                                    <ul>
+                                        <li>
+                                            <a href="../../bio_medicine_cdmo/consignment_production/consignment_production.html#tab1">원제의약품</a>
+                                        </li>
+                                        <li>
+                                            <a href="../../bio_medicine_cdmo/consignment_production/consignment_production.html#tab2">완제의약품</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="../../bio_medicine_cdmo/quality/quality.html">Quality</a>
+                                    <ul>
+                                        <li>
+                                            <a href="../../bio_medicine_cdmo/quality/quality.html#tab1">품질시스템</a>
+                                        </li>
+                                        <li>
+                                            <a href="../../bio_medicine_cdmo/quality/quality.html#tab2">품질관리</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>
+                                <span>합성의약품</span>
+                                <span><img src="../../assets/images/header_subArrow.png" alt="arrow"></span>
+                            </span>
+                            <ul class="mo_sub_menu">
+                                <li>
+                                    <a href="../../synthetic_drugs/product_search.html">제품검색</a>
+                                </li>
+                                <li>
+                                    <a href="../../synthetic_drugs/product_license_changes.html">제품공지사항</a>
+                                    <ul>
+                                        <li>
+                                            <a href="../../synthetic_drugs/product_license_changes.html">허가 변경사항</a>
+                                        </li>
+                                        <li>
+                                            <a href="../../synthetic_drugs/obesity_treatment_drugs.html">비만치료 약물</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="../../synthetic_drugs/probiotics/manufacturing_facility.html">Probiotics</a>
+                                    <ul>
+                                        <li>
+                                            <a href="../../synthetic_drugs/probiotics/manufacturing_facility.html">제조시설</a>
+                                        </li>
+                                        <li>
+                                            <a href="../../synthetic_drugs/probiotics/microbial_identification_analysis_service.html">미생물 동적 분석 서비스</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="../../synthetic_drugs/manufacturing_facility_busan.html">제조시설(부산공장)</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>
+                                <span>투자정보</span>
+                                <span><img src="../../assets/images/header_subArrow.png" alt="arrow"></span>
+                            </span>
+                            <ul class="mo_sub_menu">
+                                <!-- <li>
+                                    <span>전자공시</span>
+                                </li> -->
+                                <li>
+                                    <a href="../../investment_information/settlement_announcement.html">전자공고</a>
+                                </li>
+                                <li>
+                                    <a href="../../investment_information/financial_information.html">재무정보</a>
+                                </li>
+                                <li>
+                                    <a href="../../investment_information/stock_information/stockPrice_information.html">주식정보</a>
+                                    <ul>
+                                        <li>
+                                            <a href="../../investment_information/stock_information/stockPrice_information.html">주가정보</a>
+                                        </li>
+                                        <li>
+                                            <a href="../../investment_information/stock_information/stock_status.html">주식현황</a>
+                                        </li>
+                                        <li>
+                                            <a href="../../investment_information/stock_information/general_information.html">일반현황</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="../../investment_information/inside_information.html">내부정보관리규정</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>
+                                <span>윤리경영</span>
+                                <span><img src="../../assets/images/header_subArrow.png" alt="arrow"></span>
+                            </span>
+                            <ul class="mo_sub_menu">
+                                <li>
+                                    <a href="../../ethical_management/codeOfEthicsAndPracticalGuidelines/code_of_ethics.html">윤리강령 및 실전지침</a>
+                                    <ul>
+                                        <li>
+                                            <a href="../../ethical_management/codeOfEthicsAndPracticalGuidelines/code_of_ethics.html">윤리강령</a>
+                                        </li>
+                                        <li>
+                                            <a href="../../ethical_management/codeOfEthicsAndPracticalGuidelines/practice_guidelines.html">실전지침</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="../../ethical_management/reportingInformationAndProcedures/reporting_information.html">제보안내 및 절차</a>
+                                    <ul>
+                                        <li>
+                                            <a href="../../ethical_management/reportingInformationAndProcedures/reporting_information.html">제보안내</a>
+                                        </li>
+                                        <li>
+                                            <a href="../../ethical_management/reportingInformationAndProcedures/whistleblower_protection.html">제보자 보호</a>
+                                        </li>
+                                        <li>
+                                            <a href="../../ethical_management/reportingInformationAndProcedures/report.html">제보하기</a>
+                                        </li>
+                                        <li>
+                                            <a href="../../ethical_management/reportingInformationAndProcedures/processing_procedure.html">처리절차</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="rightBox">
+                        <div class="langBox">
+                            <button class="langBtn_ko active">KOR</button>
+                            <button class="langBtn_en">ENG</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header Fin -->
+
+        <div class="subPage bio_medicine_cdmo cdmo_service consignment_development">
+            <div class="banner_area" style="background-image: url('../../assets/images/banner.png');">
+                <div>
+                    <h2>CDO</h2>
+                </div>
+            </div>
+
+            
+            <div class="stickyNavBox">
+                <div>
+                    <span></span>
+                    <div>
+                        <span>바이오의약품 CDMO</span>
+                        <!-- toggle active 클래스 -->
+                        <ul>
+                            <li>
+                                <span>(주)바이넥스</span>
+                            </li>
+                            <li>
+                                <span>바이오의약품 CDMO</span>
+                            </li>
+                            <li>
+                                <span>제품정보</span>
+                            </li>
+                            <li>
+                                <span>투자정보</span>
+                            </li>
+                            <li>
+                                <span>윤리경영</span>
+                            </li>
+                            <li>
+                                <span>채용정보</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--  -->
+                    <div>
+                        <span>CDO</span>
+                        <!-- toggle active 클래스 -->
+                        <ul>
+                            <li>
+                                <span>CDMO 사업개요</span>
+                            </li>
+                            <li>
+                                <span>CDO</span>
+                            </li>
+                            <li>
+                                <span>CMO</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contentBox">
+                <div>
+                    <h3>위탁개발 서비스 (Contract Development Services, CDO)</h3>
+                    <p><strong>바이넥스의 위탁개발 서비스는 제품별 특성 및 스케일업을 고려하여 재현성과 수율을 확보한 서비스 패키지를 제공합니다.</strong></p>
+                    <p>
+                        당사는 다양한 바이오의약품 개발 및 생산 경험을 바탕으로 고수율의 세포주 개발 및 공정 개발을 제공하고 있으며, 제품 특성을 고려한 분석법 개발, 최대 50L 규모 
+                        non-GMP 시료생산, 단백질 구조 및 특성분석 등 개발 단계 전주기에 대한 맞춤형 서비스를 제공하고 있습니다.
+                    </p>
+
+                    <div class="tabBtnWrap">
+                        <div class="tabBtnBox">
+                            <div>
+                                <div>
+                                    <a class="tabBtn_1 active" href="#tab1" data-toggle="tab">세포주 개발</a>
+                                </div>
+                                <div>
+                                    <a class="tabBtn_2" href="#tab2" data-toggle="tab">공정개발</a>
+                                </div>
+                                <div>
+                                    <a class="tabBtn_3" href="#tab3" data-toggle="tab">분석법 개발</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tabBtnBox">
+                            <div>
+                                <div>
+                                    <a class="tabBtn_4" href="#tab4" data-toggle="tab">바이오분석지원센터</a>
+                                </div>
+                                <div>
+                                    <a class="tabBtn_5" href="#tab5" data-toggle="tab">연구용 시료 생산</a>
+                                </div>
+                                <div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tabContentBox">
+                        <div class="content_1 active" id="tab1">
+                            <h4>세포주 개발</h4>
+                            <p>
+                                다양한 발현 시스템(DHFR, GS 등)에서의 수율 및 품질의 사전 평가를 통해, 제품에 적합한 세포주 선별을 수행합니다. 바이넥스의 세포주 개발 서비스를 통해 생산성, 생존력,
+                                monoclonality, 무균성이 확보된 세포주 확립이 가능합니다.
+                            </p>
+                            <div class="flexBox">
+                                <div class="left">
+                                    <ol>
+                                        <li>세포주별 target 물질 특성 및 생산성 비교 서비스 제공</li>
+                                        <li>검증된 세포주의 도입을 통한 개발 시간 및 비용 단축</li>
+                                        <li>
+                                            단큰롤 선별: 고생산 세포주 선별을 위한 최첨단 장비 보유
+                                            (ClonPix FL, Ambr microbioreactor, Gyros)
+                                        </li>
+                                        <li>Research Cell Bank(RCB) 제조</li>
+                                        <li>세포주 안정성 연구</li>
+                                        <li>Drug Developablility 평가</li>
+                                    </ol>
+                                </div>
+                                <div class="imgBox right">
+                                    <img src="../../assets/images/cell_line_development.png" alt="세포주 개발">
+                                </div>
+                            </div>
+
+                            <div>
+                                <h5>
+                                    CLD Worflow
+                                    <span>Cell Line Development</span>
+                                </h5>
+                                <ul class="listBox">
+                                    <li>
+                                        <div>
+                                            <img src="../../assets/images/CLD_1.png" alt="Expression vector construction">
+                                        </div>
+                                        <div>
+                                            <span>
+                                                Expression vector<br>
+                                                construction
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="../../assets/images/CLD_2.png" alt="Transfection & stable pool selection">
+                                        </div>
+                                        <div>
+                                            <span>
+                                                Transfection &<br>
+                                                stable pool selection
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="../../assets/images/CLD_3.png" alt="Single cell cloning ClonePix & LDC">
+                                        </div>
+                                        <div>
+                                            <span>
+                                                Single cell cloning<br>
+                                                ClonePix & LDC  
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="../../assets/images/CLD_4.png" alt="Fed-batch test">
+                                        </div>
+                                        <div>
+                                            <span>Fed-batch test</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="../../assets/images/CLD_5.png" alt="Stablilty test">
+                                        </div>
+                                        <div>
+                                            <span>Stablilty test</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <!-- 세포주 개발 Fin -->
+
+                        <div class="content_2" id="tab2">
+                            <h4>공정개발</h4>
+                            <p>
+                                바이넥스는 성공적인 임상 및 상업용 생산을 위해 대량 생산에 최적화된 공정개발 서비스를 제공합니다. 바이넥스가 보유한 풍부한 경험과 노하우를 바탕으로, 다양한 물질에
+                                대한 효율적인 공정 개발을 지원합니다.
+                            </p>
+                            <div class="flexBox">
+                                <div class="left">
+                                    <div>
+                                        <dl>
+                                            <dt>Mammalian cell</dt>
+                                            <dd>배지 스크리닝</dd>
+                                            <dd>피드 스크리닝</dd>
+                                            <dd>배양공정 최적화</dd>
+                                            <dd>배양공정 검증</dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>Microbial</dt>
+                                            <dd>배양공정 최적화</dd>
+                                            <dd>배양공정 검증</dd>
+                                        </dl>
+                                    </div>
+                                </div>
+                                <div class="imgBox right">
+                                    <img src="../../assets/images/process_development.png" alt="공정개발">
+                                </div>
+                            </div>
+
+                            <div>
+                                <h5>Worflow</h5>
+                                <p>Upstream Process Development</p>
+                                
+                                <div class="listWrap">
+                                    <div>
+                                        <span>동물세포</span>
+                                    </div>
+                                    <ul class="listBox">
+                                        <li>
+                                            <div>
+                                                <img src="../../assets/images/animal_cells_1.png" alt="동물세포">
+                                            </div>
+                                            <div>
+                                                <span>
+                                                    Media screening<br>
+                                                    (Flask)
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <img src="../../assets/images/animal_cells_2.png" alt="동물세포">
+                                            </div>
+                                            <div>
+                                                <span>
+                                                    Feed screening<br>
+                                                    (Ambr15)
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <img src="../../assets/images/animal_cells_3.png" alt="동물세포">
+                                            </div>
+                                            <div>
+                                                <span>
+                                                    Process optimization<br>
+                                                    (Ambr15)
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <img src="../../assets/images/animal_cells_4.png" alt="동물세포">
+                                            </div>
+                                            <div>
+                                                <span>
+                                                    Process evaluation<br>
+                                                    (1~5L STR)
+                                                </span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="listWrap">
+                                    <div>
+                                        <span>미생물</span>
+                                    </div>
+                                    <ul class="listBox">
+                                        <li>
+                                            <div>
+                                                <img src="../../assets/images/animal_cells_1.png" alt="동물세포">
+                                            </div>
+                                            <div>
+                                                <span>
+                                                    Media screening<br>
+                                                    (Flask)
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <img src="../../assets/images/animal_cells_2.png" alt="동물세포">
+                                            </div>
+                                            <div>
+                                                <span>
+                                                    Feed screening<br>
+                                                    (Ambr15)
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <img src="../../assets/images/animal_cells_3.png" alt="동물세포">
+                                            </div>
+                                            <div>
+                                                <span>
+                                                    Process optimization<br>
+                                                    (Ambr15)
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <img src="../../assets/images/animal_cells_4.png" alt="동물세포">
+                                            </div>
+                                            <div>
+                                                <span>
+                                                    Process evaluation<br>
+                                                    (1~5L STR)
+                                                </span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <h4>정제공정개발</h4>
+                            <div class="flexBox">
+                                <div class="left">
+                                    <ul>
+                                        <li>레진 및 버퍼 스크리닝</li>
+                                        <li>레진 및 버퍼 스크리닝</li>
+                                        <li>정제 공정 검증</li>
+                                        <li>필터 및 멤브레인 sizing test</li>
+                                    </ul>
+                                </div>
+                                <div class="imgBox right">
+                                    <img src="../../assets/images/refining_process_development.png" alt="정제공정개발">
+                                </div>
+                            </div>
+
+                            
+                            <div>
+                                <h5>
+                                    Workflow
+                                    <span>Downstream Process Development</span>
+                                </h5>
+                                
+                                <ul class="listBox">
+                                    <li>
+                                        <div>
+                                            <img src="../../assets/images/screening.png" alt="Worflow">
+                                        </div>
+                                        <div>
+                                            <span>
+                                                Screening<br>
+                                                (resin, buffer)
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="../../assets/images/process_optimization.png" alt="Worflow">
+                                        </div>
+                                        <div>
+                                            <span>
+                                                Process<br>
+                                                Optimization
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="../../assets/images/process_evaluation.png" alt="Worflow">
+                                        </div>
+                                        <div>
+                                            <span>
+                                                Process<br>
+                                                Evaluation
+                                            </span>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <!-- 공정개발 Fin -->
+
+                        <div class="content_3" id="tab3">
+                            <h4>분석법 개발</h4>
+                            <p>바이넥스는 고객의 프로젝트 특성에 맞추어, 신뢰할 수 있는 분석법 확립을 위한 개발 서비스를 제공합니다.</p>
+
+                            <div class="flexBox">
+                                <div class="left">
+                                    <dl>
+                                        <dt>확인시험 (Identity)</dt>
+                                        <dd>
+                                            Western blot, DNA agarose-gel electrophoresis, SDS-PAGE,
+                                            CE-SDS, IEF-gel electrophoresis, icIEF/cIEF
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>순도시험 (Purity)</dt>
+                                        <dd>HPLC(SE, HI, IEX, RP, Affinity), UPLC(SE, RP)</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>역가시험 (Potency)</dt>
+                                        <dd>Ligand binding ELISA, Cell based assay</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>불순물 시험 (Impurity)</dt>
+                                        <dd>HCP ELISA, Residual protein A, HCD(qPCR), Endotoxin</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>함량시험 (Contents)</dt>
+                                        <dd>UV(A280)</dd>
+                                    </dl>
+                                </div>
+                                <div class="imgBox right">
+                                    <img src="../../assets/images/analytical_method_development.png" alt="분석법 개발">
+                                </div>
+                            </div>
+
+                            
+                            <div>
+                                <h5>Worflow</h5>
+                                
+                                <ul class="listBox">
+                                    <li>
+                                        <div>
+                                            <img src="../../assets/images/screening.png" alt="Worflow">
+                                        </div>
+                                        <div>
+                                            <span>
+                                                Expression vector<br>
+                                                construction
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="../../assets/images/process_optimization.png" alt="Worflow">
+                                        </div>
+                                        <div>
+                                            <span>
+                                                Expression vector<br>
+                                                construction
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="../../assets/images/process_evaluation.png" alt="Worflow">
+                                        </div>
+                                        <div>
+                                            <span>
+                                                Expression vector<br>
+                                                construction
+                                            </span>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <!-- 분석법 개발 Fin -->
+
+                        <div class="content_4" id="tab4">
+                            <h4>바이오분석지원센터(분석센터)</h4>
+                            <p>
+                                바이넥스가 운영중인 IFEZ 바이오분석지원센터는 의약품 개발 단계에서 요구되는 단백질 동등성 비교 및 특성분석 서비스를 제공합니다. 최첨단 분석장비를 기반으로, 질량
+                                분석 기반의 단백질 구조, PTM 등 종합적인 분석 서비스를 지원하고 있습니다.
+                            </p>
+
+                            <div class="img_flexBox">
+                                <div class="imgBox">
+                                    <img src="../../assets/images/bioanalysis_support_center.png" alt="바이오분석지원센터">
+                                </div>
+
+                                <div>
+                                    <div>
+                                        <img src="../../assets/images/ultimateLC.png" alt="Ultimate-300 Nano LC System">
+                                        <span>Ultimate-300 Nano LC System</span>
+                                    </div>
+
+                                    <div>
+                                        <img src="../../assets/images/UltimateRSLC.png" alt="Ultimate-300 X2 Dual RSLC System">
+                                        <span>Ultimate-300 X2 Dual RSLC System</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="txtBox">
+                                <dl>
+                                    <dt>Identification</dt>
+                                    <dd>Intact Mass, Peptide mapping fingerprinting, Full length sequencing, N/C terminal determination, Amino acid composition, Extinction Coefficient</dd>
+                                </dl>
+                                <dl>
+                                    <dt>Modification analysis</dt>
+                                    <dd>Modification (Oxidation, deamidation), IsoAsp, Glycation, PEGylation, Succinimeide, Disulfide bond, Free thiol 분석</dd>
+                                </dl>
+                                <dl>
+                                    <dt>Glycan analysis</dt>
+                                    <dd>Monosaccharide compostion, Sialic acid compositon, N-llinked glycan profile, O-llinked glycan profile, N-Glycosylation site, O-Glycosylation site</dd>
+                                </dl>
+                                <dl>
+                                    <dt>Higher-order Structure</dt>
+                                    <dd>UV, Fluorescence, CD, DSC, FT-IR</dd>
+                                </dl>
+                                <dl>
+                                    <dt>Particles & Aggregates</dt>
+                                    <dd>DLS, SEC-UPLC</dd>
+                                </dl>
+                                <dl>
+                                    <dt>Particles & Aggregates</dt>
+                                    <dd>HDX</dd>
+                                </dl>
+                            </div>
+                        </div>
+                        <!-- 바이오분석지원센터(분석센터) Fin -->
+
+                        <div class="content_5" id="tab5">
+                            <h4>연구용 시료생산</h4>
+                            <p>
+                                바이넥스는 비임상 시험을 포함한 다양한 연구용 시료생산 서비스를 제공합니다. 성공적인 GMP 시설로의 기술이전을 목표로, GMP 시설과 유사한 장비 및 설비로 구성된 
+                                non-GMP 시설을 보유하고 있습니다.
+                            </p>
+
+                            <div class="grayWrap">
+                                <div class="grayBG">
+                                    <div>
+                                        <img src="../../assets/images/mammalian.png" alt="Mammalian, 50L SUS(Capacity 25~50 L) (Thermo Fisher Scientific)">
+                                    </div>
+                                    <span>
+                                        Mammalian, 50L SUS(Capacity 25~50 L)<br>
+                                        (Thermo Fisher Scientific)
+                                    </span>
+                                </div>
+                                <div class="grayBG">
+                                    <div>
+                                        <img src="../../assets/images/microbial.png" alt="Microbial, 50L STS(Capacity 30~50 L) (Bioengineering)">
+                                    </div>
+                                    <span>
+                                        Microbial, 50L STS(Capacity 30~50 L)<br>
+                                        (Bioengineering)
+                                    </span>
+                                </div>
+                                <div class="grayBG">
+                                    <div>
+                                        <img src="../../assets/images/AKTA_Pilot.png" alt="AKTA Pilot (Index 70 ~ BPG 140 scale) (Cytiva)">
+                                    </div>
+                                    <span>
+                                        AKTA Pilot (Index 70 ~ BPG 140 scale)<br>
+                                        (Cytiva)
+                                    </span>
+                                </div>
+                            </div>
+
+                            <ul class="checkList">
+                                <li>제형, 비임상 연구 등 연구용 시료 생산에 적합한 batch scale (동물세포, 미생물 모두 최대 50 L scale Non-GMP 생산 가능)</li>
+                                <li>시료 필요량에 따른 다양한 정제 컬럼 사이즈 선택 가능 (Index 70 ~ BPG 140 scale)</li>
+                                <li>마이크로, 소형 Bioreactor 및 fermenter를 이용한 Lab scale 시료 생산 가능 (Ambr, Celligen, Biostat B, etc.)</li>
+                                <li>Non-GMP 생산 시료 품질 시험 및 안정성 시험 수행 가능</li>
+                            </ul>
+
+                            <div class="listWrap">
+                                <h5>Services offerings</h5>
+                                <ul class="listBox">
+                                    <li>
+                                        <div>
+                                            <img src="../../assets/images/developer_development1.png" alt="Services offerings">
+                                        </div>
+                                        <div>
+                                            <span>
+                                                Up to 50 L<br>
+                                                cultivation/fermentation
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="../../assets/images/developer_development2.png" alt="Services offerings">
+                                        </div>
+                                        <div>
+                                            <span>
+                                                Lab to pilot scale<br>
+                                                purification
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="../../assets/images/developer_development3.png" alt="Services offerings">
+                                        </div>
+                                        <div>
+                                            <span>
+                                                Method<br>
+                                                Qualification/Validation
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="../../assets/images/developer_development4.png" alt="Services offerings">
+                                        </div>
+                                        <div>
+                                            <span>
+                                                Tech transfer to<br>
+                                                GMP site
+                                            </span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- <div>
+                                <div class="left">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>Type</th>
+                                                <th>Capacity</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th rowspan="6">Mammalian</th>
+                                                <td>15mL</td>
+                                            </tr>
+                                            <tr>
+                                                <td>1L</td>
+                                            </tr>
+                                            <tr>
+                                                <td>2L</td>
+                                            </tr>
+                                            <tr>
+                                                <td>3.7L</td>
+                                            </tr>
+                                            <tr>
+                                                <td>5L</td>
+                                            </tr>
+                                            <tr>
+                                                <td>50L</td>
+                                            </tr>
+                                            <tr>
+                                                <th rowspan="3">Microbial</th>
+                                                <td>250mL</td>
+                                            </tr>
+                                            <tr>
+                                                <td>5L</td>
+                                            </tr>
+                                            <tr>
+                                                <td>50L</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="right">
+                                    <div>
+                                        <img src="../../assets/images/mammalian.png" alt="Mammalian">
+                                        <span>Mammalian, 50L SUS(Capacity 25~50L) (Thermo Fisher Scientific)</span>
+                                    </div>
+
+                                    <div>
+                                        <img src="../../assets/images/microbial.png" alt="Microbial">
+                                        <span>Microbial, 50L STS(Capacity 30~50L) (Bioengineering)</span>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                        <!-- 연구용 시료생산 Fin -->
+                    </div>
+
+                </div>
+
+
+
+                <div class="analysis_center">
+                    <div>
+                        <img src="../../assets/images/ifez_logo.png" alt="분석센터 로고">
+                        <p>
+                            지금 바로 IFEZ 분석센터 홈페이지에 접속하여<br>
+                            단백질 분석 서비스에 대한 정보를 확인해 보세요.
+                        </p>
+                        <button>분석센터 바로가기</button>
+                    </div>
+                </div>
+                <!-- content_5에 active가 붙었을 때 여기도 active 클래스 추가 -->
+
+
+            </div>
+
+        </div>
+
+
+        <footer>
+            <div>
+                <ul>
+                    <li>
+                        <a href="../../company/aboutUs/company_overview.html">회사소개</a>
+                    </li>
+                    <li>
+                        <a href="../../synthetic_drugs/product_search.html">제품검색</a>
+                    </li>
+                    <li>
+                        <a href="../../contactUs/contactUs.html">문의하기</a>
+                    </li>
+                    <li>
+                        <a href="../../investment_information/inside_information.html">내부정보관리규정</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <a href="../../index.html">footer logo</a>
+                <div>
+                    <span>
+                        <span>(주)바이넥스</span>
+                    </span>
+                    <span>
+                        <span>대표이사</span>
+                        이혁종
+                    </span>
+                    <span>부산시 사하구 다대로 368-3</span>
+                </div>
+                <div>
+                    <span>
+                        <span>Email</span>
+                        admin@bmcnet.kr
+                    </span>
+                    <span>
+                        <span>Fax</span>
+                        032.837.5388
+                    </span>
+                </div>
+                <p>Copyright © ALINK3D. All rights reserved.</p>
+            </div>
+        </footer>   
+        <!-- footer Fin -->
+    </div>
+</body> 
+</html>

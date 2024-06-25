@@ -22,7 +22,15 @@ $(document).ready(function(){
 
     hamburger();
     mobileHeaderAccordion();
+
+    stickyNav();
 }); 
+
+function stickyNav(){
+    $('.stickyNavBox > div > div > span').click(function(){
+        $(this).toggleClass('active');
+    })
+}
 
 function hamburger(){
     $('.header_mo .hamburger').click(function(){

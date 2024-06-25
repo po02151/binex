@@ -15,16 +15,16 @@ h2,h3{word-break: keep-all;}
 .stickyNavBox{background-color: #fff; width: 100%; border-bottom: 1px solid #EEEEEE;}
 .stickyNavBox span{cursor: pointer;}
 .stickyNavBox > div{display: flex;}
-.stickyNavBox > div > span{cursor: pointer; display: block; position: relative; width: 60px; height: 60px; background-color: #E01E25;}
-.stickyNavBox > div > span:after{content: ''; position: absolute; display: block; background: url('../../assets/images/suv_navi_home.png') center / contain no-repeat; width: 18px; height: 18px; left: 50%; top: 50%; transform: translate(-50%, -50%);}
+.stickyNavBox > div > a{cursor: pointer; display: block; position: relative; width: 60px; height: 60px; background-color: #E01E25;}
+.stickyNavBox > div > a:after{content: ''; position: absolute; display: block; background: url('../../assets/images/suv_navi_home.png') center / contain no-repeat; width: 18px; height: 18px; left: 50%; top: 50%; transform: translate(-50%, -50%);}
 .stickyNavBox > div > div{position: relative; width: 260px; box-sizing: border-box;}
 .stickyNavBox > div > div:after{content: ''; position: absolute; right: 0; top: 50%; transform: translateY(-50%); width: 1px; height: 60px; background-color: #EEEEEE;}
 .stickyNavBox > div > div > span{position: relative; text-decoration: none; padding: 0 30px; line-height: 60px; box-sizing: border-box; display: block; font-size: 16px; font-weight: 400; color: #777777; position: relative;}
 .stickyNavBox > div > div > span:after{content: ''; position: absolute; right: 30px; top: 50%; transform: translateY(-50%); display: block; background: url('../../assets/images/stickyNavBox_arrow.png') center / contain no-repeat; width: 10px; height: 5px;}
 .stickyNavBox > div > div > span + ul{z-index: 9; visibility: hidden; opacity: 0; transition: all 0.3s ease-out; border-left: 1px solid #EEEEEE; border-right: 1px solid #EEEEEE; border-bottom: 1px solid #EEEEEE; position: absolute; border-top: 1px solid #E01E25; width: 100%; box-sizing: border-box; background-color: #fff; padding: 10px 0;}
 .stickyNavBox > div > div > span + ul li:hover{background-color: #F9F9F9;}
-.stickyNavBox > div > div > span + ul li span{display: block; padding: 15px 30px; box-sizing: border-box; text-decoration: none; font-size: 17px; font-weight: 500; color: #777777;}
-.stickyNavBox > div > div > span + ul li span:hover{color: #555555;}
+.stickyNavBox > div > div > span + ul li a{display: block; padding: 15px 30px; box-sizing: border-box; text-decoration: none; font-size: 17px; font-weight: 500; color: #777777;}
+.stickyNavBox > div > div > span + ul li a:hover{color: #555555;}
 /* .stickyNavBox > div > div:hover > a + ul,
 .stickyNavBox > div > div > a:hover + ul, */
 .stickyNavBox > div > div > span.active + ul{visibility: visible; opacity: 1;}
